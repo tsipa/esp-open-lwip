@@ -40,7 +40,8 @@
 #include "netif/bridgeif_opts.h"
 
 #include "lwip/err.h"
-#include "lwip/prot/ethernet.h"
+/// #include "lwip/prot/ethernet.h"
+#include "netif/etharp.h"
 
 #ifdef __cplusplus
 extern "C" {
